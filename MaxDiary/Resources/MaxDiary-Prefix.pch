@@ -1,0 +1,45 @@
+//
+//  MaxDiary-Prefix.pch
+//  MaxDiary
+//
+//  Created by max on 2019/2/28.
+//  Copyright © 2019 陈子健. All rights reserved.
+//
+
+#ifndef MaxDiary_Prefix_pch
+#define MaxDiary_Prefix_pch
+
+#ifdef DEBUG
+#define ZJLog(format, ...) NSLog((@"[文件名:%s]" "[函数名:%s]" "[行号:%d]" format), __FILE__, __FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#define ZJLog(...);
+#endif
+
+/** TabBar **/
+#define TabClassKey   @"rootVCClassString"
+#define TabTitleKey   @"title"
+#define TabImgKey     @"imageName"
+#define TabSelImgKey  @"selectedImageName"
+
+/** Tool **/
+// 色值
+#define RGBA(r,g,b,a) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
+#define RGB(r,g,b) RGBA(r,g,b,1.0f)
+
+// 字体设置：PingFang SC 仿苹果官方自字体
+#define PFR [[[UIDevice currentDevice] systemVersion] floatValue] >= 9.0 ? @"PingFangSC-Regular" : @"PingFang SC"
+
+#define PFR20Font [UIFont fontWithName:PFR size:20];
+#define PFR18Font [UIFont fontWithName:PFR size:18];
+#define PFR16Font [UIFont fontWithName:PFR size:16];
+#define PFR15Font [UIFont fontWithName:PFR size:15];
+#define PFR14Font [UIFont fontWithName:PFR size:14];
+#define PFR13Font [UIFont fontWithName:PFR size:13];
+#define PFR12Font [UIFont fontWithName:PFR size:12];
+#define PFR11Font [UIFont fontWithName:PFR size:11];
+#define PFR10Font [UIFont fontWithName:PFR size:10];
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* MaxDiary_Prefix_pch */

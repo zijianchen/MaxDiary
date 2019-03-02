@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		338C914D1D179DCE688A7D77 /* libPods-MaxDiary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87423220036CC558B23B8BAD /* libPods-MaxDiary.a */; };
 		568CD1162227852F00FB53A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 568CD1152227852F00FB53A4 /* AppDelegate.m */; };
-		568CD1192227852F00FB53A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 568CD1182227852F00FB53A4 /* ViewController.m */; };
 		568CD11C2227852F00FB53A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568CD11A2227852F00FB53A4 /* Main.storyboard */; };
-		568CD11F2227852F00FB53A4 /* MaxDiary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 568CD11D2227852F00FB53A4 /* MaxDiary.xcdatamodeld */; };
 		568CD1212227853100FB53A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 568CD1202227853100FB53A4 /* Assets.xcassets */; };
 		568CD1242227853100FB53A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568CD1222227853100FB53A4 /* LaunchScreen.storyboard */; };
 		568CD1272227853100FB53A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 568CD1262227853100FB53A4 /* main.m */; };
 		568CD1312227853100FB53A4 /* MaxDiaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 568CD1302227853100FB53A4 /* MaxDiaryTests.m */; };
 		568CD13C2227853100FB53A4 /* MaxDiaryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 568CD13B2227853100FB53A4 /* MaxDiaryUITests.m */; };
+		568CD14D2227B0BA00FB53A4 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 568CD14C2227B0BA00FB53A4 /* BaseViewController.m */; };
+		568CD1502227C09900FB53A4 /* ZJReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 568CD14F2227C09900FB53A4 /* ZJReachability.m */; };
+		568CD15A2227D50500FB53A4 /* MaxDiary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 568CD1582227D50500FB53A4 /* MaxDiary.xcdatamodeld */; };
+		568CD1612227DAD900FB53A4 /* ZJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 568CD1602227DAD900FB53A4 /* ZJTabBarController.m */; };
+		568CD1652227DB1500FB53A4 /* ZJTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 568CD1642227DB1500FB53A4 /* ZJTabBar.m */; };
+		568CD1782227DE0700FB53A4 /* ZJHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 568CD1772227DE0700FB53A4 /* ZJHomeViewController.m */; };
+		568CD17B2227DE1800FB53A4 /* ZJCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 568CD17A2227DE1800FB53A4 /* ZJCalendarViewController.m */; };
+		568CD17E2227DE2900FB53A4 /* ZJWriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 568CD17D2227DE2900FB53A4 /* ZJWriteViewController.m */; };
+		568CD1842227DFAE00FB53A4 /* ZJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 568CD1832227DFAE00FB53A4 /* ZJNavigationController.m */; };
+		587CA851F37B4E0EBAF16372 /* libPods-MaxDiaryUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D941D0CA7AF65ABC6CDE4435 /* libPods-MaxDiaryUITests.a */; };
+		FE9EFCB73EFB08A62ACAD9F5 /* libPods-MaxDiaryTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43461497DA2BC93B14174B41 /* libPods-MaxDiaryTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,13 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13A1E2CA9600E4501AC08AE5 /* Pods-MaxDiaryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaxDiaryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MaxDiaryTests/Pods-MaxDiaryTests.release.xcconfig"; sourceTree = "<group>"; };
+		43461497DA2BC93B14174B41 /* libPods-MaxDiaryTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MaxDiaryTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4775147C6F6ED317821AD0C2 /* Pods-MaxDiaryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaxDiaryUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MaxDiaryUITests/Pods-MaxDiaryUITests.release.xcconfig"; sourceTree = "<group>"; };
 		568CD1112227852F00FB53A4 /* MaxDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaxDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		568CD1142227852F00FB53A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		568CD1152227852F00FB53A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		568CD1172227852F00FB53A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		568CD1182227852F00FB53A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		568CD11B2227852F00FB53A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		568CD11E2227852F00FB53A4 /* MaxDiary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MaxDiary.xcdatamodel; sourceTree = "<group>"; };
 		568CD1202227853100FB53A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		568CD1232227853100FB53A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		568CD1252227853100FB53A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,6 +63,30 @@
 		568CD1372227853100FB53A4 /* MaxDiaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaxDiaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		568CD13B2227853100FB53A4 /* MaxDiaryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaxDiaryUITests.m; sourceTree = "<group>"; };
 		568CD13D2227853100FB53A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		568CD14B2227B0BA00FB53A4 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		568CD14C2227B0BA00FB53A4 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		568CD14E2227C09900FB53A4 /* ZJReachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJReachability.h; sourceTree = "<group>"; };
+		568CD14F2227C09900FB53A4 /* ZJReachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJReachability.m; sourceTree = "<group>"; };
+		568CD1512227CE1100FB53A4 /* MaxDiary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MaxDiary-Prefix.pch"; sourceTree = "<group>"; };
+		568CD1592227D50500FB53A4 /* MaxDiary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MaxDiary.xcdatamodel; sourceTree = "<group>"; };
+		568CD15F2227DAD900FB53A4 /* ZJTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJTabBarController.h; sourceTree = "<group>"; };
+		568CD1602227DAD900FB53A4 /* ZJTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJTabBarController.m; sourceTree = "<group>"; };
+		568CD1632227DB1500FB53A4 /* ZJTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJTabBar.h; sourceTree = "<group>"; };
+		568CD1642227DB1500FB53A4 /* ZJTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJTabBar.m; sourceTree = "<group>"; };
+		568CD1762227DE0700FB53A4 /* ZJHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJHomeViewController.h; sourceTree = "<group>"; };
+		568CD1772227DE0700FB53A4 /* ZJHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJHomeViewController.m; sourceTree = "<group>"; };
+		568CD1792227DE1800FB53A4 /* ZJCalendarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJCalendarViewController.h; sourceTree = "<group>"; };
+		568CD17A2227DE1800FB53A4 /* ZJCalendarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJCalendarViewController.m; sourceTree = "<group>"; };
+		568CD17C2227DE2900FB53A4 /* ZJWriteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJWriteViewController.h; sourceTree = "<group>"; };
+		568CD17D2227DE2900FB53A4 /* ZJWriteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJWriteViewController.m; sourceTree = "<group>"; };
+		568CD1822227DFAE00FB53A4 /* ZJNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJNavigationController.h; sourceTree = "<group>"; };
+		568CD1832227DFAE00FB53A4 /* ZJNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJNavigationController.m; sourceTree = "<group>"; };
+		87423220036CC558B23B8BAD /* libPods-MaxDiary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MaxDiary.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D8246678F9AE80587982557 /* Pods-MaxDiary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaxDiary.release.xcconfig"; path = "Pods/Target Support Files/Pods-MaxDiary/Pods-MaxDiary.release.xcconfig"; sourceTree = "<group>"; };
+		B3B3939CB5C8D70B41F51253 /* Pods-MaxDiaryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaxDiaryUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MaxDiaryUITests/Pods-MaxDiaryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4F807930CD5084EE3FD7786 /* Pods-MaxDiary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaxDiary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MaxDiary/Pods-MaxDiary.debug.xcconfig"; sourceTree = "<group>"; };
+		D941D0CA7AF65ABC6CDE4435 /* libPods-MaxDiaryUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MaxDiaryUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7125CB84377DFF372953EC9 /* Pods-MaxDiaryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaxDiaryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MaxDiaryTests/Pods-MaxDiaryTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				338C914D1D179DCE688A7D77 /* libPods-MaxDiary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE9EFCB73EFB08A62ACAD9F5 /* libPods-MaxDiaryTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +110,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				587CA851F37B4E0EBAF16372 /* libPods-MaxDiaryUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47A85F24C977086E2C60870C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87423220036CC558B23B8BAD /* libPods-MaxDiary.a */,
+				43461497DA2BC93B14174B41 /* libPods-MaxDiaryTests.a */,
+				D941D0CA7AF65ABC6CDE4435 /* libPods-MaxDiaryUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		568CD1082227852F00FB53A4 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +134,8 @@
 				568CD12F2227853100FB53A4 /* MaxDiaryTests */,
 				568CD13A2227853100FB53A4 /* MaxDiaryUITests */,
 				568CD1122227852F00FB53A4 /* Products */,
+				BD613BB2F5EEBC55C34D08B0 /* Pods */,
+				47A85F24C977086E2C60870C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,16 +152,13 @@
 		568CD1132227852F00FB53A4 /* MaxDiary */ = {
 			isa = PBXGroup;
 			children = (
-				568CD1142227852F00FB53A4 /* AppDelegate.h */,
-				568CD1152227852F00FB53A4 /* AppDelegate.m */,
-				568CD1172227852F00FB53A4 /* ViewController.h */,
-				568CD1182227852F00FB53A4 /* ViewController.m */,
-				568CD11A2227852F00FB53A4 /* Main.storyboard */,
-				568CD1202227853100FB53A4 /* Assets.xcassets */,
-				568CD1222227853100FB53A4 /* LaunchScreen.storyboard */,
-				568CD1252227853100FB53A4 /* Info.plist */,
+				568CD1682227DCCE00FB53A4 /* Write */,
+				568CD1672227DC9400FB53A4 /* Calendar */,
+				568CD1662227DC8D00FB53A4 /* Home */,
+				568CD15B2227D5C300FB53A4 /* Main */,
+				568CD14A2227AF8900FB53A4 /* Resources */,
+				568CD1492227AF0200FB53A4 /* Base */,
 				568CD1262227853100FB53A4 /* main.m */,
-				568CD11D2227852F00FB53A4 /* MaxDiary.xcdatamodeld */,
 			);
 			path = MaxDiary;
 			sourceTree = "<group>";
@@ -135,6 +181,93 @@
 			path = MaxDiaryUITests;
 			sourceTree = "<group>";
 		};
+		568CD1492227AF0200FB53A4 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				568CD14B2227B0BA00FB53A4 /* BaseViewController.h */,
+				568CD14C2227B0BA00FB53A4 /* BaseViewController.m */,
+				568CD14E2227C09900FB53A4 /* ZJReachability.h */,
+				568CD14F2227C09900FB53A4 /* ZJReachability.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		568CD14A2227AF8900FB53A4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				568CD1142227852F00FB53A4 /* AppDelegate.h */,
+				568CD1152227852F00FB53A4 /* AppDelegate.m */,
+				568CD11A2227852F00FB53A4 /* Main.storyboard */,
+				568CD1202227853100FB53A4 /* Assets.xcassets */,
+				568CD1222227853100FB53A4 /* LaunchScreen.storyboard */,
+				568CD1252227853100FB53A4 /* Info.plist */,
+				568CD1512227CE1100FB53A4 /* MaxDiary-Prefix.pch */,
+				568CD1582227D50500FB53A4 /* MaxDiary.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		568CD15B2227D5C300FB53A4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				568CD1622227DAFE00FB53A4 /* View */,
+				568CD15F2227DAD900FB53A4 /* ZJTabBarController.h */,
+				568CD1602227DAD900FB53A4 /* ZJTabBarController.m */,
+				568CD1822227DFAE00FB53A4 /* ZJNavigationController.h */,
+				568CD1832227DFAE00FB53A4 /* ZJNavigationController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		568CD1622227DAFE00FB53A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				568CD1632227DB1500FB53A4 /* ZJTabBar.h */,
+				568CD1642227DB1500FB53A4 /* ZJTabBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		568CD1662227DC8D00FB53A4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				568CD1762227DE0700FB53A4 /* ZJHomeViewController.h */,
+				568CD1772227DE0700FB53A4 /* ZJHomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		568CD1672227DC9400FB53A4 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				568CD1792227DE1800FB53A4 /* ZJCalendarViewController.h */,
+				568CD17A2227DE1800FB53A4 /* ZJCalendarViewController.m */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		568CD1682227DCCE00FB53A4 /* Write */ = {
+			isa = PBXGroup;
+			children = (
+				568CD17C2227DE2900FB53A4 /* ZJWriteViewController.h */,
+				568CD17D2227DE2900FB53A4 /* ZJWriteViewController.m */,
+			);
+			path = Write;
+			sourceTree = "<group>";
+		};
+		BD613BB2F5EEBC55C34D08B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4F807930CD5084EE3FD7786 /* Pods-MaxDiary.debug.xcconfig */,
+				9D8246678F9AE80587982557 /* Pods-MaxDiary.release.xcconfig */,
+				F7125CB84377DFF372953EC9 /* Pods-MaxDiaryTests.debug.xcconfig */,
+				13A1E2CA9600E4501AC08AE5 /* Pods-MaxDiaryTests.release.xcconfig */,
+				B3B3939CB5C8D70B41F51253 /* Pods-MaxDiaryUITests.debug.xcconfig */,
+				4775147C6F6ED317821AD0C2 /* Pods-MaxDiaryUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,9 +275,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 568CD1402227853100FB53A4 /* Build configuration list for PBXNativeTarget "MaxDiary" */;
 			buildPhases = (
+				2F6E35DA19FBC558EF638744 /* [CP] Check Pods Manifest.lock */,
 				568CD10D2227852F00FB53A4 /* Sources */,
 				568CD10E2227852F00FB53A4 /* Frameworks */,
 				568CD10F2227852F00FB53A4 /* Resources */,
+				FE8A696BF019991AF560A14F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -159,6 +294,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 568CD1432227853100FB53A4 /* Build configuration list for PBXNativeTarget "MaxDiaryTests" */;
 			buildPhases = (
+				7EED9D38D6FEC331A25F8C39 /* [CP] Check Pods Manifest.lock */,
 				568CD1282227853100FB53A4 /* Sources */,
 				568CD1292227853100FB53A4 /* Frameworks */,
 				568CD12A2227853100FB53A4 /* Resources */,
@@ -177,6 +313,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 568CD1462227853100FB53A4 /* Build configuration list for PBXNativeTarget "MaxDiaryUITests" */;
 			buildPhases = (
+				4FC0EDBAD8BE0DE4085CE872 /* [CP] Check Pods Manifest.lock */,
 				568CD1332227853100FB53A4 /* Sources */,
 				568CD1342227853100FB53A4 /* Frameworks */,
 				568CD1352227853100FB53A4 /* Resources */,
@@ -260,15 +397,113 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2F6E35DA19FBC558EF638744 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MaxDiary-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FC0EDBAD8BE0DE4085CE872 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MaxDiaryUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EED9D38D6FEC331A25F8C39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MaxDiaryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE8A696BF019991AF560A14F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MaxDiary/Pods-MaxDiary-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MaxDiary/Pods-MaxDiary-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		568CD10D2227852F00FB53A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				568CD1192227852F00FB53A4 /* ViewController.m in Sources */,
+				568CD1842227DFAE00FB53A4 /* ZJNavigationController.m in Sources */,
+				568CD1782227DE0700FB53A4 /* ZJHomeViewController.m in Sources */,
+				568CD14D2227B0BA00FB53A4 /* BaseViewController.m in Sources */,
+				568CD15A2227D50500FB53A4 /* MaxDiary.xcdatamodeld in Sources */,
+				568CD1502227C09900FB53A4 /* ZJReachability.m in Sources */,
+				568CD17E2227DE2900FB53A4 /* ZJWriteViewController.m in Sources */,
+				568CD17B2227DE1800FB53A4 /* ZJCalendarViewController.m in Sources */,
+				568CD1612227DAD900FB53A4 /* ZJTabBarController.m in Sources */,
+				568CD1652227DB1500FB53A4 /* ZJTabBar.m in Sources */,
 				568CD1162227852F00FB53A4 /* AppDelegate.m in Sources */,
 				568CD1272227853100FB53A4 /* main.m in Sources */,
-				568CD11F2227852F00FB53A4 /* MaxDiary.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,11 +672,14 @@
 		};
 		568CD1412227853100FB53A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4F807930CD5084EE3FD7786 /* Pods-MaxDiary.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = MaxDiary/Info.plist;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MaxDiary/Resources/MaxDiary-Prefix.pch";
+				INFOPLIST_FILE = MaxDiary/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,11 +692,14 @@
 		};
 		568CD1422227853100FB53A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D8246678F9AE80587982557 /* Pods-MaxDiary.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = MaxDiary/Info.plist;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MaxDiary/Resources/MaxDiary-Prefix.pch";
+				INFOPLIST_FILE = MaxDiary/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -471,6 +712,7 @@
 		};
 		568CD1442227853100FB53A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7125CB84377DFF372953EC9 /* Pods-MaxDiaryTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -490,6 +732,7 @@
 		};
 		568CD1452227853100FB53A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13A1E2CA9600E4501AC08AE5 /* Pods-MaxDiaryTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -509,6 +752,7 @@
 		};
 		568CD1472227853100FB53A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3B3939CB5C8D70B41F51253 /* Pods-MaxDiaryUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8K8LY55JVB;
@@ -527,6 +771,7 @@
 		};
 		568CD1482227853100FB53A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4775147C6F6ED317821AD0C2 /* Pods-MaxDiaryUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8K8LY55JVB;
@@ -585,12 +830,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		568CD11D2227852F00FB53A4 /* MaxDiary.xcdatamodeld */ = {
+		568CD1582227D50500FB53A4 /* MaxDiary.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				568CD11E2227852F00FB53A4 /* MaxDiary.xcdatamodel */,
+				568CD1592227D50500FB53A4 /* MaxDiary.xcdatamodel */,
 			);
-			currentVersion = 568CD11E2227852F00FB53A4 /* MaxDiary.xcdatamodel */;
+			currentVersion = 568CD1592227D50500FB53A4 /* MaxDiary.xcdatamodel */;
 			path = MaxDiary.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
