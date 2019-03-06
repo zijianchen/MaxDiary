@@ -39,6 +39,13 @@
 #define PFR11Font [UIFont fontWithName:PFR size:11];
 #define PFR10Font [UIFont fontWithName:PFR size:10];
 
+// 尺寸
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#define widthPix kScreenWidth/320
+#define heightPix kScreenHeight/568
+
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 

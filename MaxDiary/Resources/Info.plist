@@ -28,6 +28,8 @@
 	<array>
 		<string>armv7</string>
 	</array>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>请允许APP获取您的位置来更新天气</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

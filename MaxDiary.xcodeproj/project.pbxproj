@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		338C914D1D179DCE688A7D77 /* libPods-MaxDiary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87423220036CC558B23B8BAD /* libPods-MaxDiary.a */; };
+		563614A6222CC89F00EB68FD /* cityGroups.plist in Resources */ = {isa = PBXBuildFile; fileRef = 563614A5222CC89F00EB68FD /* cityGroups.plist */; };
+		563614A9222CC8B500EB68FD /* CityGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 563614A8222CC8B500EB68FD /* CityGroup.m */; };
+		563614AC222CC8D700EB68FD /* CityGroupTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 563614AB222CC8D700EB68FD /* CityGroupTableViewController.m */; };
 		568CD1162227852F00FB53A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 568CD1152227852F00FB53A4 /* AppDelegate.m */; };
 		568CD11C2227852F00FB53A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568CD11A2227852F00FB53A4 /* Main.storyboard */; };
 		568CD1212227853100FB53A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 568CD1202227853100FB53A4 /* Assets.xcassets */; };
@@ -49,6 +52,11 @@
 		13A1E2CA9600E4501AC08AE5 /* Pods-MaxDiaryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaxDiaryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MaxDiaryTests/Pods-MaxDiaryTests.release.xcconfig"; sourceTree = "<group>"; };
 		43461497DA2BC93B14174B41 /* libPods-MaxDiaryTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MaxDiaryTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4775147C6F6ED317821AD0C2 /* Pods-MaxDiaryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaxDiaryUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MaxDiaryUITests/Pods-MaxDiaryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		563614A5222CC89F00EB68FD /* cityGroups.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cityGroups.plist; sourceTree = "<group>"; };
+		563614A7222CC8B500EB68FD /* CityGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CityGroup.h; sourceTree = "<group>"; };
+		563614A8222CC8B500EB68FD /* CityGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityGroup.m; sourceTree = "<group>"; };
+		563614AA222CC8D700EB68FD /* CityGroupTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CityGroupTableViewController.h; sourceTree = "<group>"; };
+		563614AB222CC8D700EB68FD /* CityGroupTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityGroupTableViewController.m; sourceTree = "<group>"; };
 		568CD1112227852F00FB53A4 /* MaxDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaxDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		568CD1142227852F00FB53A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		568CD1152227852F00FB53A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -127,6 +135,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		563614A4222CC87A00EB68FD /* City */ = {
+			isa = PBXGroup;
+			children = (
+				563614A5222CC89F00EB68FD /* cityGroups.plist */,
+				563614A7222CC8B500EB68FD /* CityGroup.h */,
+				563614A8222CC8B500EB68FD /* CityGroup.m */,
+				563614AA222CC8D700EB68FD /* CityGroupTableViewController.h */,
+				563614AB222CC8D700EB68FD /* CityGroupTableViewController.m */,
+			);
+			path = City;
+			sourceTree = "<group>";
+		};
 		568CD1082227852F00FB53A4 = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +172,7 @@
 		568CD1132227852F00FB53A4 /* MaxDiary */ = {
 			isa = PBXGroup;
 			children = (
+				563614A4222CC87A00EB68FD /* City */,
 				568CD1682227DCCE00FB53A4 /* Write */,
 				568CD1672227DC9400FB53A4 /* Calendar */,
 				568CD1662227DC8D00FB53A4 /* Home */,
@@ -378,6 +399,7 @@
 				568CD1242227853100FB53A4 /* LaunchScreen.storyboard in Resources */,
 				568CD1212227853100FB53A4 /* Assets.xcassets in Resources */,
 				568CD11C2227852F00FB53A4 /* Main.storyboard in Resources */,
+				563614A6222CC89F00EB68FD /* cityGroups.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,7 +519,9 @@
 				568CD1782227DE0700FB53A4 /* ZJHomeViewController.m in Sources */,
 				568CD14D2227B0BA00FB53A4 /* BaseViewController.m in Sources */,
 				568CD15A2227D50500FB53A4 /* MaxDiary.xcdatamodeld in Sources */,
+				563614AC222CC8D700EB68FD /* CityGroupTableViewController.m in Sources */,
 				568CD1502227C09900FB53A4 /* ZJReachability.m in Sources */,
+				563614A9222CC8B500EB68FD /* CityGroup.m in Sources */,
 				568CD17E2227DE2900FB53A4 /* ZJWriteViewController.m in Sources */,
 				568CD17B2227DE1800FB53A4 /* ZJCalendarViewController.m in Sources */,
 				568CD1612227DAD900FB53A4 /* ZJTabBarController.m in Sources */,
