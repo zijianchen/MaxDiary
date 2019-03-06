@@ -11,6 +11,9 @@
 		563614A6222CC89F00EB68FD /* cityGroups.plist in Resources */ = {isa = PBXBuildFile; fileRef = 563614A5222CC89F00EB68FD /* cityGroups.plist */; };
 		563614A9222CC8B500EB68FD /* CityGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 563614A8222CC8B500EB68FD /* CityGroup.m */; };
 		563614AC222CC8D700EB68FD /* CityGroupTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 563614AB222CC8D700EB68FD /* CityGroupTableViewController.m */; };
+		563614FD222FBE5500EB68FD /* WeatherView.m in Sources */ = {isa = PBXBuildFile; fileRef = 563614FB222FBE5400EB68FD /* WeatherView.m */; };
+		56361503222FBE6D00EB68FD /* WeatherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 563614FF222FBE6D00EB68FD /* WeatherModel.m */; };
+		56361504222FBE6D00EB68FD /* LocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 56361500222FBE6D00EB68FD /* LocationModel.m */; };
 		568CD1162227852F00FB53A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 568CD1152227852F00FB53A4 /* AppDelegate.m */; };
 		568CD11C2227852F00FB53A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568CD11A2227852F00FB53A4 /* Main.storyboard */; };
 		568CD1212227853100FB53A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 568CD1202227853100FB53A4 /* Assets.xcassets */; };
@@ -57,6 +60,12 @@
 		563614A8222CC8B500EB68FD /* CityGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityGroup.m; sourceTree = "<group>"; };
 		563614AA222CC8D700EB68FD /* CityGroupTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CityGroupTableViewController.h; sourceTree = "<group>"; };
 		563614AB222CC8D700EB68FD /* CityGroupTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityGroupTableViewController.m; sourceTree = "<group>"; };
+		563614FB222FBE5400EB68FD /* WeatherView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherView.m; sourceTree = "<group>"; };
+		563614FC222FBE5500EB68FD /* WeatherView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherView.h; sourceTree = "<group>"; };
+		563614FF222FBE6D00EB68FD /* WeatherModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherModel.m; sourceTree = "<group>"; };
+		56361500222FBE6D00EB68FD /* LocationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationModel.m; sourceTree = "<group>"; };
+		56361501222FBE6D00EB68FD /* WeatherModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherModel.h; sourceTree = "<group>"; };
+		56361502222FBE6D00EB68FD /* LocationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationModel.h; sourceTree = "<group>"; };
 		568CD1112227852F00FB53A4 /* MaxDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaxDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		568CD1142227852F00FB53A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		568CD1152227852F00FB53A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -145,6 +154,26 @@
 				563614AB222CC8D700EB68FD /* CityGroupTableViewController.m */,
 			);
 			path = City;
+			sourceTree = "<group>";
+		};
+		563614FA222FBE4400EB68FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				563614FC222FBE5500EB68FD /* WeatherView.h */,
+				563614FB222FBE5400EB68FD /* WeatherView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		563614FE222FBE6D00EB68FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				563614FF222FBE6D00EB68FD /* WeatherModel.m */,
+				56361500222FBE6D00EB68FD /* LocationModel.m */,
+				56361501222FBE6D00EB68FD /* WeatherModel.h */,
+				56361502222FBE6D00EB68FD /* LocationModel.h */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		568CD1082227852F00FB53A4 = {
@@ -261,6 +290,8 @@
 		568CD1672227DC9400FB53A4 /* Calendar */ = {
 			isa = PBXGroup;
 			children = (
+				563614FE222FBE6D00EB68FD /* Model */,
+				563614FA222FBE4400EB68FD /* View */,
 				568CD1792227DE1800FB53A4 /* ZJCalendarViewController.h */,
 				568CD17A2227DE1800FB53A4 /* ZJCalendarViewController.m */,
 			);
@@ -519,13 +550,16 @@
 				568CD1782227DE0700FB53A4 /* ZJHomeViewController.m in Sources */,
 				568CD14D2227B0BA00FB53A4 /* BaseViewController.m in Sources */,
 				568CD15A2227D50500FB53A4 /* MaxDiary.xcdatamodeld in Sources */,
+				56361504222FBE6D00EB68FD /* LocationModel.m in Sources */,
 				563614AC222CC8D700EB68FD /* CityGroupTableViewController.m in Sources */,
 				568CD1502227C09900FB53A4 /* ZJReachability.m in Sources */,
+				56361503222FBE6D00EB68FD /* WeatherModel.m in Sources */,
 				563614A9222CC8B500EB68FD /* CityGroup.m in Sources */,
 				568CD17E2227DE2900FB53A4 /* ZJWriteViewController.m in Sources */,
 				568CD17B2227DE1800FB53A4 /* ZJCalendarViewController.m in Sources */,
 				568CD1612227DAD900FB53A4 /* ZJTabBarController.m in Sources */,
 				568CD1652227DB1500FB53A4 /* ZJTabBar.m in Sources */,
+				563614FD222FBE5500EB68FD /* WeatherView.m in Sources */,
 				568CD1162227852F00FB53A4 /* AppDelegate.m in Sources */,
 				568CD1272227853100FB53A4 /* main.m in Sources */,
 			);
